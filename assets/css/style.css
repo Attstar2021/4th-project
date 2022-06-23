@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/*** ------------------------Hero Image zoom effect----------------***/
+
+#hero-outer {
+    height: 600px;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background: url(../images/background-image.jpg) no-repeat center center;
+    /*animation zoom effect on loading pages*/
+    animation-name: hero-image;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes hero-image {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1)
+    }
+}
