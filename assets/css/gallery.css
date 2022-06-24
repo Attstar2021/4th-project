@@ -56,7 +56,7 @@
 
 /**-------------adjustment and styling of images in gallery.html-------------- **/
 
-.row01, .row02{
+.row01, .row02, .row03{
     display:flex;
     column-count: 3;
     line-height: 30px;
