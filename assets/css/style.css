@@ -13,7 +13,7 @@
     overflow: hidden;
     position: relative;
 }
-#hero-image{
+#hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/background-image.jpg) no-repeat center center;
@@ -22,6 +22,7 @@
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 @keyframes hero-image {
     from{
         transform: scale(1);
@@ -30,3 +31,9 @@
         transform: scale(1.1)
     }
 }
+
+
+
+/** gallery css **/
+
+

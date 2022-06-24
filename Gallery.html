@@ -7,32 +7,102 @@
     <meta name="desription" content="commercial farmhouse booking and organic food, live a day in farmhouse, away from city close to nature, dream farmhouse">
     <meta name="keywords" content="dream farmhouse, farmhouse booking">
     <meta name="author" content="Attiya Rasheed">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="assets/css/gallery.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/627c5434aa.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assests/js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.js"></script>
     <title>Dream Farmhouse</title>
 </head>
 <body>
-    <header class="header" id="header">
-        <div class="site-name"><a href="/index.html">Dream farmhouse</a></div>
-        <div class="links">
-            <a href="/index.html">Home<i class="fa-solid fa-house-chimney"></i></a>
-            <a href="/Gallery.html">Gallery</a>
-            <a href="/booking.html">Booking</a>
-            <a href="/form.html">Contact Us</a>
-        </div>
-            <div class="hero-image">
-                <img src="./assests/images/hero-image1.jpg" alt="farmhouse fields">
+    <article class="container mt-3">
+        <header class="header" id="header">
+            <nav class="links navbar navbar-light bg-light navbar-expand-sm">
+                <a href="/index.html" class="navbar-brand">Dream farmhouse <i class="fas fa-home"></i> </a>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="active nav-item mr-2"><a href="/Gallery.html">Gallery</a></li>
+                        <li class="nav-item mr-2"><a href="/booking.html">Booking</a></li>
+                        <li class="nav-item mr-2"><a href="/form.html">Contact Us</a></li> 
+                    </ul>
+                </nav>
             </div>
-    </header>
-    <section><div>
-        <img src="">
-    </div></section>
-    
-    <div>d</div>
-    <footer>
-        <a href="#"></a><a href="#"></a><a href="#"></a>
-    </footer>
-    <script src="assests/js/script.js" type="text/javascript"></script>
+        </header>
+        <section id="hero-outer1" class="container">
+            <div id="hero-image1"></div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 jumbotron lead text-center" id="cover-text">
+                     <h1>Book a day in dream farmhouse!</h1>
+                     <p><mark>Save 10% when you book with family or friends.</mark></p>
+                </div>
+            </div>
+        </section>
+        <!--farm images-->
+        <section class="farm-image">
+            <div id="image-div-1" class="row01">
+                <div class="col col-12 col-md-6 col-lg-4">
+                  <img src="/assets/images/farm-pic1.jpg" alt="fields with animals" id="media1" width="300" height="200">  
+                </div>
+                <div id="picture1" class="picture">
+                    <span class="close">&times;</span>
+                    <img class="pic-content" id="img1">
+                    <div id="caption1"></div>
+                </div>
+                <div class="col col-12 d-md-none d-lg-block col-lg-4 picture">
+                    <img src="/assets/images/farm-pic2.jpg" alt="" id="media2" width="300" height="200">  
+                </div>
+                <div id="picture2" class="picture">
+                    <span class="close close01">&times;</span>
+                    <img class="pic-content" id="img2">
+                    <div id="caption2"></div>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-4 picture">
+                    <img src="/assets/images/farm-pic3.jpg" alt="" id="media1" width="300" height="200">  
+                </div>
+                <div id="picture3" class="picture">
+                    <span class="close close02">&times;</span>
+                    <img class="pic-content" id="img3">
+                    <div id="caption3"></div>
+                </div>
+            </div>
+            <div id="image-div-2" class="row02"></div>
+                <div class="col col-12 col-md-6 col-lg-4 picture">
+                    <img src="/assets/images/farm-pic4.jpg" alt="" id="media4" width="300" height="200">  
+                </div>
+                <div id="picture4" class="picture">
+                    <span class="close close03">&times;</span>
+                    <img class="pic-content" id="img4">
+                    <div id="caption4"></div>
+                </div>
+                <div class="col col-12 d-md-none d-lg-block col-lg-4 picture">
+                    <img src="/assets/images/farm3.jpg" alt="" id="media5" width="300" height="200">  
+                </div>
+                <div id="picture5" class="picture">
+                    <span class="close close04">&times;</span>
+                    <img class="pic-content" id="img5">
+                    <div id="caption5"></div>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-4 picture">
+                    <img src="/assets/images/farm4.jpg" alt="" id="media6" width="300" height="200">  
+                </div>
+                <div id="picture6" class="picture">
+                    <span class="close close05">&times;</span>
+                    <img class="pic-content" id="img6">
+                    <div id="caption6"></div>
+                </div>
+            </div>
+            <!--farm images-->
+        </section>
+        <footer>
+            <div class="row">
+                <div class="col-12">
+                    
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link open in new tab)">Facebook <i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on instagram (link open in new tab)">Instagram <i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link open in new tab)">Twitter <i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Find us on Youtube (link open in new tab)">Youtube<i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+        <script src="assets/js/gallery.js" type="text/javascript"></script>
+    </article>
 </body>
 </html>
