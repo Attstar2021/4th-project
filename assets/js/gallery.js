@@ -108,7 +108,7 @@ imgNine.onclick = function() {
     image_09.src = this.src;
     captionTextNine.innerHTML = this.alt;
 }
-//-------------image
+//-------------image 10
 
 var imageViewTen =document.getElementById("picture10");
 var imgTen =document.getElementById("media10");
@@ -120,7 +120,7 @@ imgTen.onclick = function() {
     image_10.src = this.src;
     captionTextTen.innerHTML = this.alt;
 }
-//-------------image
+//-------------image 11
 
 var imageViewEleven =document.getElementById("picture11");
 var imgEleven =document.getElementById("media11");
@@ -132,104 +132,93 @@ imgEleven.onclick = function() {
     image_11.src = this.src;
     captionTextEleven.innerHTML = this.alt;
 }
-//-------------image
+//-------------image 12
 
-var imageViewSix =document.getElementById("picture6");
-var imgSix =document.getElementById("media6");
-var captionTextSix = document.getElementById("caption6");
-var image_06 = document.getElementById("img6");
+var imageViewTwelve =document.getElementById("picture12");
+var imgTwelve =document.getElementById("media12");
+var captionTextTwelve = document.getElementById("caption12");
+var image_12 = document.getElementById("img12");
 
-imgSix.onclick = function() {
-    imageViewSix.style.display = "block";
-    image_06.src = this.src;
-    captionTextSix.innerHTML = this.alt;
+imgTwelve.onclick = function() {
+    imageViewTwelve.style.display = "block";
+    image_12.src = this.src;
+    captionTextTwelve.innerHTML = this.alt;
 }
-//-------------image
+//-------------image 13
 
-var imageViewSix =document.getElementById("picture6");
-var imgSix =document.getElementById("media6");
-var captionTextSix = document.getElementById("caption6");
-var image_06 = document.getElementById("img6");
+var imageViewThirteen =document.getElementById("picture13");
+var imgThirteen =document.getElementById("media13");
+var captionTextThirteen = document.getElementById("caption13");
+var image_13 = document.getElementById("img13");
 
-imgSix.onclick = function() {
-    imageViewSix.style.display = "block";
-    image_06.src = this.src;
-    captionTextSix.innerHTML = this.alt;
+imgThirteen.onclick = function() {
+    imageViewThirteen.style.display = "block";
+    image_13.src = this.src;
+    captionTextThirteen.innerHTML = this.alt;
 }
-//-------------image
+//-------------image 14
 
-var imageViewSix =document.getElementById("picture6");
-var imgSix =document.getElementById("media6");
-var captionTextSix = document.getElementById("caption6");
-var image_06 = document.getElementById("img6");
+var imageViewFourteen =document.getElementById("picture14");
+var imgFourteen =document.getElementById("media14");
+var captionTextFourteen = document.getElementById("caption14");
+var image_14 = document.getElementById("img14");
 
-imgSix.onclick = function() {
-    imageViewSix.style.display = "block";
-    image_06.src = this.src;
-    captionTextSix.innerHTML = this.alt;
+imgFourteen.onclick = function() {
+    imageViewFourteen.style.display = "block";
+    image_14.src = this.src;
+    captionTextFourteen.innerHTML = this.alt;
 }
-//-------------image
+//-------------image 15
 
-var imageViewSix =document.getElementById("picture6");
-var imgSix =document.getElementById("media6");
-var captionTextSix = document.getElementById("caption6");
-var image_06 = document.getElementById("img6");
+var imageViewFifteen =document.getElementById("picture15");
+var imgFifteen =document.getElementById("media15");
+var captionTextFifteen = document.getElementById("caption15");
+var image_15 = document.getElementById("img15");
 
-imgSix.onclick = function() {
-    imageViewSix.style.display = "block";
-    image_06.src = this.src;
-    captionTextSix.innerHTML = this.alt;
+imgFifteen.onclick = function() {
+    imageViewFifteen.style.display = "block";
+    image_15.src = this.src;
+    captionTextFifteen.innerHTML = this.alt;
 }
-//-------------image
+//-------------image 16
 
-var imageViewSix =document.getElementById("picture6");
-var imgSix =document.getElementById("media6");
-var captionTextSix = document.getElementById("caption6");
-var image_06 = document.getElementById("img6");
+var imageViewSixteen =document.getElementById("picture16");
+var imgSixteen =document.getElementById("media16");
+var captionTextSixteen = document.getElementById("caption16");
+var image_16 = document.getElementById("img16");
 
-imgSix.onclick = function() {
-    imageViewSix.style.display = "block";
-    image_06.src = this.src;
-    captionTextSix.innerHTML = this.alt;
+imgSixteen.onclick = function() {
+    imageViewSixteen.style.display = "block";
+    image_16.src = this.src;
+    captionTextSixteen.innerHTML = this.alt;
 }
-//-------------image
+//-------------image 17
 
-var imageViewSix =document.getElementById("picture6");
-var imgSix =document.getElementById("media6");
-var captionTextSix = document.getElementById("caption6");
-var image_06 = document.getElementById("img6");
+var imageViewSeventeen =document.getElementById("picture17");
+var imgSeventeen =document.getElementById("media17");
+var captionTextSeventeen = document.getElementById("caption17");
+var image_17 = document.getElementById("img17");
 
-imgSix.onclick = function() {
-    imageViewSix.style.display = "block";
-    image_06.src = this.src;
-    captionTextSix.innerHTML = this.alt;
+imgSeventeen.onclick = function() {
+    imageViewSeventeen.style.display = "block";
+    image_17.src = this.src;
+    captionTextSeventeen.innerHTML = this.alt;
 }
-//-------------image
+//-------------image 18
 
-var imageViewSix =document.getElementById("picture6");
-var imgSix =document.getElementById("media6");
-var captionTextSix = document.getElementById("caption6");
-var image_06 = document.getElementById("img6");
+var imageViewEighteen = document.getElementById("picture18");
+var imgEighteen =document.getElementById("media18");
+var captionTextEighteen = document.getElementById("caption18");
+var image_18 = document.getElementById("img18");
 
-imgSix.onclick = function() {
-    imageViewSix.style.display = "block";
-    image_06.src = this.src;
-    captionTextSix.innerHTML = this.alt;
+imgEighteen.onclick = function() {
+    imageViewEighteen.style.display = "block";
+    image_18.src = this.src;
+    captionTextEighteen.innerHTML = this.alt;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**function to close view 
+ of all image form 1 to 18 ***/
 
 var span_01 = document.getElementsByClassName("close1")[0];
 span_01.onclick = function(){
@@ -237,15 +226,11 @@ span_01.onclick = function(){
 }
     
 
-
-
 var span_02 = document.getElementsByClassName("close2")[0];
 span_02.onclick = function(){
     imageViewTwo.style.display = "none";
 }
 
-/**function to close view 
- of all image ***/
     
 var span_03 = document.getElementsByClassName("close3")[0];
 span_03.onclick = function(){
@@ -267,12 +252,65 @@ span_06.onclick = function(){
     imageViewSix.style.display = "none";
 }
 
-var span_ = document.getElementsByClassName("close")[0];
-span_.onclick = function(){
-    imageView.style.display = "none";
+var span_07 = document.getElementsByClassName("close7")[0];
+span_07.onclick = function(){
+    imageViewSeven.style.display = "none";
 }
 
+var span_08 = document.getElementsByClassName("close8")[0];
+span_08.onclick = function(){
+    imageViewEight.style.display = "none";
+}
 
+var span_09 = document.getElementsByClassName("close9")[0];
+span_09.onclick = function(){
+    imageViewNine.style.display = "none";
+}
+
+var span_10 = document.getElementsByClassName("close10")[0];
+span_10.onclick = function(){
+    imageViewTen.style.display = "none";
+}
+
+var span_11 = document.getElementsByClassName("close11")[0];
+span_11.onclick = function(){
+    imageViewEleven.style.display = "none";
+}
+
+var span_12 = document.getElementsByClassName("close12")[0];
+span_12.onclick = function(){
+    imageViewTwelve.style.display = "none";
+}
+
+var span_13 = document.getElementsByClassName("close13")[0];
+span_13.onclick = function(){
+    imageViewThirteen.style.display = "none";
+}
+
+var span_14 = document.getElementsByClassName("close14")[0];
+span_14.onclick = function(){
+    imageViewFourteen.style.display = "none";
+}
+
+var span_15 = document.getElementsByClassName("close15")[0];
+span_15.onclick = function(){
+    imageViewFifteen.style.display = "none";
+}
+
+var span_16 = document.getElementsByClassName("close16")[0];
+span_16.onclick = function(){
+    imageViewSixteen.style.display = "none";
+}
+
+var span_17 = document.getElementsByClassName("close17")[0];
+span_17.onclick = function(){
+    imageViewSeventeen.style.display = "none";
+}
+
+var span_18 = document.getElementsByClassName("close18")[0];
+span_18.onclick = function(){
+    imageViewEighteen.style.display = "none";
+}
     
 
     
