@@ -34,7 +34,7 @@
 
 
 
-/** form css **/
+/** form.html css style  **/
 
 #hero-outer1 {
     height: 600px;
@@ -43,4 +43,33 @@
     position: relative;
 }
 
+/*** footer style */
 
+.link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer{
+    height: 70px;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+/*** ------------------------Hero Image form.html----------------***/
+
+#hero-outer-form {
+    height: 600px;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+#hero-image-form {
+    height: 600px;
+    width: 100%;
+    background: url(../images/form-main.jpg) no-repeat center center;
+    /*animation zoom effect on loading pages*/
+    animation-name: hero-image;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
