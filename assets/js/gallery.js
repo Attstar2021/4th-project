@@ -1,16 +1,37 @@
-// to zoom picture from gallery.html and make it viewable 
+// javascript image model code
+
 var imageViewOne = document.getElementById("picture1");
-var imageViewTwo =document.getElementById("picture2");
-var imageViewThree =document.getElementById("picture3")
-var imageViewFour =document.getElementById("picture4")
-var imageViewFive =document.getElementById("picture5")
-var imageViewSix =document.getElementById("picture6")
-
-
-
-
 var imgOne =document.getElementById("media1");
+var captionTextOne = document.getElementById("caption1");
+var image_01 = document.getElementById("img1");
+
+imgOne.onclick = function() {
+    imageViewOne.style.display = "block";
+    image_01.src = this.src;
+    captionTextOne.innerHTML = this.alt;
+}
+
+var imageViewTwo = document.getElementById("picture2");
 var imgTwo =document.getElementById("media2");
+var captionTextTwo = document.getElementById("caption2");
+var image_02 = document.getElementById("img2");
+
+
+imgTwo.onclick = function() {
+    imageViewTwo.style.display = "block";
+    image_02.src = this.src;
+    captionTextTwo.innerHTML = this.alt;
+}
+/**
+------
+var imageViewThree =document.getElementById("picture3");
+var imageViewFour =document.getElementById("picture4");
+var imageViewFive =document.getElementById("picture5");
+var imageViewSix =document.getElementById("picture6");
+
+
+
+
 var imgThree =document.getElementById("media3");
 var imgFour =document.getElementById("media4");
 var imgFive =document.getElementById("media5");
@@ -19,8 +40,6 @@ var imgSix =document.getElementById("media6");
 
 
 
-var captionTextOne = document.getElementById("caption1");
-var captionTextTwo = document.getElementById("caption2");
 var captionTextThree = document.getElementById("caption3");
 var captionTextFour = document.getElementById("caption4");
 var captionTextFive = document.getElementById("caption5");
@@ -29,8 +48,6 @@ var captionTextSix = document.getElementById("caption6");
 
 
 
-var image_01 = document.getElementById("img1");
-var image_02 = document.getElementById("img2");
 var image_03 = document.getElementById("img3");
 var image_04 = document.getElementById("img4");
 var image_05 = document.getElementById("img5");
@@ -38,20 +55,10 @@ var image_06 = document.getElementById("img6");
 
 
 
-/** function for images' view */
+ function for images' view 
 
 
-imgOne.onclick = function() {
-    imageViewOne.style.display = "block";
-    image_01.src = this.src;
-    captionTextOne.innerHTML = this.alt;
-}
 
-imgTwo.onclick = function() {
-    imageViewTwo.style.display = "block";
-    image_02.src = this.src;
-    captionTextTwo.innerHTML = this.alt;
-}
 
 imgThree.onclick = function() {
     imageViewThree.style.display = "block";
@@ -76,28 +83,44 @@ imgSix.onclick = function() {
     image_06.src = this.src;
     captionTextSix.innerHTML = this.alt;
 }
+**/
+
+
+var spanOne = document.getElementById("close1")[0];
 
 
 
-/**function to close view */
+spanOne.onclick = function(){
+    imageViewOne.style.display = "none";
+    
+}
 var span = document.getElementsByClassName("close")[0];
-var span_01 = document.getElementsByClassName("close")[0];
+span.onclick = function(){
+    imageViewTwo.style.display = "none";
+    
+}
+/**function to close view 
 var span_02 = document.getElementsByClassName("close")[0];
 var span_03 = document.getElementsByClassName("close")[0];
 var span_04 = document.getElementsByClassName("close")[0];
 var span_05 = document.getElementsByClassName("close")[0];
 
-span.onclick = function(){
-    imageViewOne.style.display = "none";
-    
-}
 
-span_01.onclick = function(){
-    imageViewTwo.style.display = "none";
-    
-}
 span_02.onclick = function(){
     imageViewThree.style.display = "none";
     
 }
-/**Second image */
+
+span_03.onclick = function(){
+    imageViewFour.style.display = "none";
+    
+}
+span_04.onclick = function(){
+    imageViewFive.style.display = "none";
+    
+}
+span_05.onclick = function(){
+    imageViewSix.style.display = "none";
+    
+}
+Second image ***/
