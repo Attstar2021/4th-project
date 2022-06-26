@@ -73,3 +73,20 @@ footer{
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
+
+
+/** contact form**/
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center;
+    position: absolute;
+}
+
+#form{
+    background-color: darkgreen;
+    text-align: center;
+}
