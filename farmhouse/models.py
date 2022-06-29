@@ -1,3 +1,7 @@
+from curses.ascii import US
+from statistics import mode
+from django.contrib.auth.models import User
+from django.db import models
 from django.db import models
 import uuid
 
@@ -8,11 +12,14 @@ class farmhouseModel(models.Model):
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateField(auto_now_add=True)
 
+    class Meta:
+       abstract = True
+
 class Facilities(farmhouseModel):
-    Facility_name = models.CharField(max_length=50)
+    facility_name = models.CharField(max_length=50)
 
     def __str__(self) -> str:
-        return self.Facility_name
+        return self.facility_name
 
 
 class Hotel(farmhouseModel):
@@ -26,12 +33,12 @@ class Hotel(farmhouseModel):
         return self.room_name
 
 class RoomImages(farmhouseModel):
-    room = models.ForeignKey(Hotel, related_name='room_images', on_delete=models.CASCADE)
-    images = models.ImageField(upload='hotel')
+    room = models.ForeignKey(Hotel, related_name='images', on_delete=models.CASCADE)
+    images = models.ImageField(upload_to="hotels")
 
 class RoomBooking(farmhouseModel):
     room = models.ForeignKey(Hotel, related_name='room_booking', on_delete=models.CASCADE)
     user = models.ForeignKey(User, related_name='user_booking', on_delete=models.CASCADE)
-    start_date = models.DateTimeField()
-    end_date = models.DateTimeField()
-    booking_type = models.CharField(choices=('post paid' 'pay on arrival'))
+    start_date = models.DateField()
+    end_date = models.DateField()
+    #booking_type = models.CharField(max-length=50, choices=(('pre-paid', 'pre-paid'), ('post paid', 'post paid')))
